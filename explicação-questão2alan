@@ -1,0 +1,16 @@
+let altura= [ 1.0,2.2,1.1,4]
+let alturaanterior;
+let alturamaxima = 0;
+let alturamininima= 5;
+
+for ( let index= 0; index< altura.length; index++) {
+    let alturaatual = altura[index];
+    console.log(altura)
+    if(alturaatual > alturaanterior){
+        alturaanterior = alturaatual;
+        console.log(alturaatual)
+    } if (alturaatual > alturamaxima){
+        alturamaxima = alturaatual;
+
+    } 
+}
